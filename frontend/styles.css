@@ -90,6 +90,8 @@ button:hover {
 pre {
     white-space: pre-wrap;
     word-wrap: break-word;
+
+    overflow-y: auto;
 }
 
 
@@ -120,6 +122,7 @@ pre {
         height: 35vh;
         width: 67vw;
         border: 2px solid;
+        overflow-y: auto;
     }
 }
 
