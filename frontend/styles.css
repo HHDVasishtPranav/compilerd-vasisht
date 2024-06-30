@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.763);
+    margin-bottom: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+nav sub {
+    font-weight: lighter;
+    font-size: small;
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.816);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 21, 0.816);
+    color: black;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+.editor {
+    display: flex;
+    margin-left: 30px;
+}
+
+.tb {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.code {
+    width: 65vw;
+}
+
+#codeeditor {
+    background-color: rgb(0, 0, 0);
+    color: green;
+    font-size: large;
+    margin: 2px;
+    padding: 10px;
+    height: 83vh;
+    width: 60vw;
+}
+
+.out {
+    margin-top: 2px;
+    width: 30vw;
+}
+
+.inputf {
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#stdin {
+    width: 29vw;
+    height: 46vh;
+    padding: 5px
+}
+
+.outputf {
+    margin-top: 12px;
+    padding: 5px;
+    height: 35vh;
+    border: 2px solid;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+@media (max-width: 1024px) {
+    .editor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .out {
+        width: 70vw;
+    }
+
+    .inputf {
+        width: 70vw;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    #stdin {
+        width: 69vw;
+        padding: 5px
+    }
+
+    .outputf {
+        padding: 5px;
+        height: 35vh;
+        width: 67vw;
+        border: 2px solid;
+    }
+}
+
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

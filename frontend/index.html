@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+
+<body>
+    <form id="codeForm" action="">
+        <nav>
+            <h1>Compiled<sub>&nbsp;by vasisht</sub></h1>
+
+        </nav>
+        <div class="editor">
+            <div class="code">
+                <div class="tb">
+                    <div>
+                        <label for="language">Select Language:</label>
+                        <select id="language">
+                            <option value="nodejs">Node.js</option>
+                            <option value="python">Python</option>
+                            <option value="c">C</option>
+                            <option value="cpp">C++</option>
+                            <option value="java">Java</option>
+                        </select>
+                    </div>
+                    <button type="submit">Run Code</button>
+                </div>
+                <textarea id="codeeditor">enter your code here.......</textarea>
+            </div>
+            <div class="out">
+                <div class="inputf">
+                    <h3>Enter input if needed</h3>
+                    <hr>
+                    <textarea id="stdin">type your custom input here.....</textarea>
+                </div>
+    </form>
+    <div class="outputf">
+        <h3>Your output will be displayes here</h3>
+        <hr>
+        <pre id="output"></pre>
+    </div>
+    </div>
+    </div>
+
+    <script src="/frontend/scripts.js"></script>
+</body>
+
+</html>
